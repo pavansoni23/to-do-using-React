@@ -1,8 +1,17 @@
-# React + Vite
+# To-do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: Developed a to-do list application using React to manage tasks with features to add, delete, and mark tasks as completed.
 
-Currently, two official plugins are available:
+Technologies Used: React, JavaScript, HTML, CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
+
+State Management: Utilized React's useState hook to manage the application's state.
+Component-based Architecture: Built reusable components to encapsulate different functionalities.
+Props: Passed data and functions between components using props to maintain a unidirectional data flow.
+Responsive Design: Ensured the application is responsive and user-friendly on various devices.
+
+
+Gained hands-on experience with React and component-based development.
+Enhanced understanding of state management and event handling in React.
+Improved skills in designing interactive and dynamic user interfaces.
