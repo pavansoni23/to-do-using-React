@@ -24,17 +24,7 @@ export default function TodoList() {
         setTodoArr((todoArr) => todoArr.filter((currItem) => currItem.id != id));
     }
 
-    // UPDATE-ALL
-    // let upperCaseAll = () => {
-    //     setTodoArr((todoArr) => (
-    //         todoArr.map((item) => {
-    //             return {
-    //                 ...item,
-    //                 task: item.task.toUpperCase()
-    //             }
-    //         })
-    //     ));
-    // }
+   
 
     let allDone = () => {
         setTodoArr((todoArr) => (
@@ -45,22 +35,7 @@ export default function TodoList() {
     }
 
 
-    // UPDATE-ONE
-    // let upperCaseOne = (id) => {
-    //     setTodoArr((todoArr) => (
-    //         todoArr.map((item) => {
-    //             if (item.id == id) {
-    //                 return {
-    //                     ...item,
-    //                     task: item.task.toUpperCase()
-    //                 }
-    //             } else {
-    //                 return item;
-    //             }
 
-    //         })
-    //     ));
-    // }
 
     let markAsDone = (id) => {
         setTodoArr((todoArr) => (
